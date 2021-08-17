@@ -1,0 +1,58 @@
+body {
+    background-image: url(TableMountain.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    margin: 0em;
+    padding: 0em;
+    border-radius: 2em;
+    height: 100vh;
+   /* width: 100vw;*/
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    font-family:cursive;
+    font-display:initial;
+    font-size: initial;
+    
+}
+
+.click1 {
+    margin: auto;
+    margin-top: 0em;
+    text-align:left;
+    padding-top: 8.5em;
+    padding-right: 8.5em;
+    padding-bottom: 10em;
+    margin-right: 10em;
+    /*margin-bottom: 0.6em;*/
+    /*display: flex;*/
+}
+.click2 {
+    margin: auto;
+    margin-top: 0em;
+    text-align: right;
+    padding-top: 8.5em;
+    padding-right: 8.5em;
+    padding-bottom: 10em;
+    margin-right: 10em;
+}
+.cass {
+    display: flex;
+}
+
+
+   
+    
+    
+    
+   
+
+
+@media (min-width: 960px) {
+    .body {
+        display: flex;
+    }
+}
